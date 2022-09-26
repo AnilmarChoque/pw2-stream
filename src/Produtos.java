@@ -1,16 +1,16 @@
 
 public class Produtos {
 
-	private double ID;
+	private double id;
 	private String nome;
 	private CategoriaEnum categoria;
-	private double preço;
+	private int preco;
 	
-	public double getID() {
-		return ID;
+	public double getId() {
+		return id;
 	}
-	public void setID(double iD) {
-		ID = iD;
+	public void setId(double id) {
+		this.id = id;
 	}
 	public String getNome() {
 		return nome;
@@ -18,11 +18,11 @@ public class Produtos {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public double getPreço() {
-		return preço;
+	public int getPreco() {
+		return preco;
 	}
-	public void setPreço(double preço) {
-		this.preço = preço;
+	public void setPreco(int preco) {
+		this.preco = preco;
 	}
 	public CategoriaEnum getCategoria() {
 		return categoria;
